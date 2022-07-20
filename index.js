@@ -7,9 +7,9 @@ import ReactNative, {
     View,
     ScrollView,
     Dimensions,
-    Platform,
-    ViewPropTypes
+    Platform
 } from 'react-native';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import PropTypes from 'prop-types';
 
 const deviceWidth = Dimensions.get('window').width;
